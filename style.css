@@ -9,6 +9,7 @@ h1 {
     font-size: 50px;
     color: white;
     text-align: center;
+
  
 }
 
@@ -34,5 +35,26 @@ p {
 }
 
 video {
-    margin-left: 25%;
+    position: relative;
+    left: 250px;
 }
+
+img[src*='camp.jpg'] {
+    margin: 20px 70px;
+    
+}
+
+
+img[src*='phone.png'] {
+    display: block;
+    position: relative;
+    left: 450px;
+
+ }
+
+ p[class*='text'] {
+    margin-left: 100%;
+    color: gray;
+    font-size: 20px;
+ }
+
